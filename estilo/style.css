@@ -4,31 +4,34 @@
 }
 
 body{
-    background-color: rgb(160, 117, 200);
-
+    background-color: #acacff;
+    display: block;
+    margin: 8px;
 }
 
 main{
     background-color: white;
-    width: 500px;
+    width: 560px;
+    height: 80;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.419);
+    text-align: left;
 }
 
 h1{
-    font-size: 2cm;
+    font-size: 32px;
     color: rgb(36, 36, 132);
 }
 
 h2{
-    font-size: 1,5cm;
+    font-size: 24px;
     color: rgb(36, 36, 132);
 }
 
 img.lado {
     float: right;
-    
+
 }
 
 a{
@@ -40,4 +43,8 @@ a{
 a:hover {
     text-decoration: underline;
     color: rgb(29, 29, 241);
+}
+
+iframe{
+  width: 100%;
 }
